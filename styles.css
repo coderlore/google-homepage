@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 230px;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-area hr {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search {
+    flex: 0 0 500px;
+    border-radius: 50px;
+    height: 30px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #e3e1e1;
+    border-width: 1px;
+}
+
+.btn {
+    flex: 0 0 125px;
+    justify-content: center;
+    margin: 0px 5px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+hr {
+    visibility: hidden;
+}
+
+/* This section styles the nav bar */
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+nav.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav.navbar ul li{
+    display: inline-block;
+}
+
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signin-btn {
+    background-color: #1973e7;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a.left-nav {
+    margin: 5px;
+}
+
+a.right-nav {
+    margin: 5px;
+}
+
+a.icon {
+    margin: 5px;
+}
+
+a.signin-btn {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* This section styles the nav bar */
+nav.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav.footer ul li{
+    display: inline-block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e3e1e1;
+    text-align: center;
+    height: 50px;
+ }
+
+ a.bot-nav {
+     margin:15px 5px;
+     display: flex;
+     color: #828282;
+ }
+
+ a.bottom-nav {
+     margin: 15px 5px;
+     display: flex;
+     color: #828282;
+ }
